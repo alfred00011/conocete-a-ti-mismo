@@ -1,0 +1,21 @@
+.main-menu {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  
+}
+
+.main-menu ul {
+  display: flex; 
+  float: right;
+  
+}
+
+.main-menu li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+svg{
+  width: 10rem;
+}
+

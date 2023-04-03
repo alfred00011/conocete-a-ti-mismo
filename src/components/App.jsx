@@ -1,7 +1,12 @@
+import "./App.css"
+import Menu from "./menu/MainHeader"
+
 function App() {
 
   return (
-    <h1>HELLO WORLD</h1>
+    <div className="app-container">
+      <Menu/>
+    </div>
   )
 }
 
