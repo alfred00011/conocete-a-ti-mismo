@@ -1,12 +1,15 @@
-import "./MainHeader.css"
 import MainMenu from "./MainMenu"
 
-const Menu = () => {
+const MainHeader = () => {
     return (
         <div className="fixed bg-gradient w-full z-10">
-            <MainMenu/>
+            <div className="w-full m-auto flex items-center lg:max-w-200" >
+                <MainMenu/>
+                
+            </div>
+            
         </div>
     )
 }
 
-export default Menu
+export default MainHeader

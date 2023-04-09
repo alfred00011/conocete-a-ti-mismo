@@ -1,11 +1,10 @@
-import "./App.css"
-import Menu from "./menu/MainHeader"
+import MainHeader from "./menu/MainHeader"
 
 function App() {
 
   return (
     <div className="app-container">
-      <Menu/>
+      <MainHeader/>
     </div>
   )
 }
