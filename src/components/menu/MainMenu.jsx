@@ -11,21 +11,21 @@ const MainMenu = () => {
           </Link>
         </li>
         <li className="flex items-center">
-          <Link className="menu-item" to="/contenido">
+          <Link className="menu-item" to="/">
             Contenido
           </Link>
         </li>
         <li className="flex items-center">
-          <Link className="menu-item" to="/beneficios">
+          <Link className="menu-item" to="/">
             Beneficios
           </Link>
         </li>
         <li className="flex items-center">
-          <Link className="menu-item" to="/somos">
+          <Link className="menu-item" to="/">
             ¿Quiénes somos?
           </Link>
         </li><li className="flex items-center">
-          <Link className="menu-item" to="/contactos">
+          <Link className="menu-item" to="/">
             Contactanos
           </Link>
         </li>
