@@ -23,10 +23,10 @@ const Carrusel = () => {
         setIndex(imgIndex)
     }
     return (
-        <div className="max-w-[1400px] h-[70vh] w-full m-auto relative group">
+        <div className="w-full h-[70vh] m-auto relative group">
          
             <img  
-                className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+                className="w-full h-full rounded-4xl bg-center bg-cover duration-500"
                 src={imagenes[index].img} 
                 alt={imagenes[index].title} 
             />
