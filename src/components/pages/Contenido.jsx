@@ -2,10 +2,10 @@ import mapaNA from '../../assets/img/mapa.png'
 
 const Contenido = () => {
     return (
-        <section className='cont-section'>
-            <div className='container'>
-                <div className='relative justify-center'>
-                    <div className='relative text-center'>
+        <section className='bg-gray-100' >
+            <div className=''>
+                <div className=''>
+                    <div className='relative text-center p-4'>
                         <span className='subheading'>Contenido del Curso</span>
                         <h1 className='mb-4'>Recorrido a travéz del curso</h1>
                     </div>
