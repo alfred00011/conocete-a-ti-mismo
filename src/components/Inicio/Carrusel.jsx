@@ -48,9 +48,9 @@ const Carrusel = () => {
                     <BsChevronCompactRight/>
                 </button>
             </div>
-            <div className="flex top-4 justify-center py-2">
+            <div className="flex top-4 justify-center py-2 bf">
                 {imagenes.map((imagen, imgIndex) => (
-                    <div key={imgIndex} onClick={() => goToSlide(imgIndex)} className="text-2xl cursor-pointer">
+                    <div key={imgIndex} onClick={() => goToSlide(imgIndex)} className="text-2xl cursor-pointer ">
                         <RxDotFilled/>
                     </div>
                 ))}

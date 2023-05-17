@@ -2,7 +2,7 @@ import mapaNA from '../../assets/img/mapa.png'
 
 const Contenido = () => {
     return (
-        <section className='bg-gray-100' >
+        <div className='bg-gray-100 flex flex-col items-center h-[90vh]' >
             <div className=''>
                 <div className=''>
                     <div className='relative text-center p-4'>
@@ -11,12 +11,12 @@ const Contenido = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <div className='flex justify-center'>
-                    <img className='img' src={mapaNA} alt="" width="100%" height="100%"/>
+            <div className=''>
+                <div className='flex flex-col items-center p-4'>
+                    <img className='img' src={mapaNA} alt="" width="1025px" />
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
