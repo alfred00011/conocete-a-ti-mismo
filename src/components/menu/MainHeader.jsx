@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { RiMenuFoldFill } from "react-icons/ri";
-import { Link } from "react-router-dom";
 
 
 const MainHeader = () => {
@@ -14,28 +13,28 @@ const MainHeader = () => {
             >
                 <ul className=" style-header h-full w-full  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 lg:max-w-256 lg:justify-end">
                     <li className="flex items-center">
-                        <Link className="menu-item" to="">
+                        <a className="menu-item" href="#home">
                         Inicio
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex items-center">
-                        <Link className="menu-item" to="/Contenido.jsx">
+                        <a className="menu-item" href="#contenido">
                         Contenido
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex items-center">
-                        <Link className="menu-item" to="/">
+                        <a className="menu-item" href="/">
                         Beneficios
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex items-center">
-                        <Link className="menu-item" to="/">
+                        <a className="menu-item" href="/">
                         ¿Quiénes somos?
-                        </Link>
+                        </a>
                     </li><li className="flex items-center">
-                        <Link className="menu-item" to="/">
+                        <a className="menu-item" href="/">
                         Contactanos
-                        </Link>
+                        </a>
                     </li>
 
                 </ul>
