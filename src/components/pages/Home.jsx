@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="sm:grid-cols-1 md:col-start-2 md:col-end-5 lg:col-start-2 lg:col-end-5 my-8 p-4 fondo-stilo flex items-center xl:p-8 ">
                     <Titulo/>
                 </div>
-                <div className="sm:grid-cols-1 md:col-start-6 md:col-end-10 h-[75vh] lg:col-start-5 lg:col-end-8 my-8 p-4 fondo-stilo flex items-center xl:p-8" >
+                <div className="sm:grid-cols-1 md:col-start-6 md:col-end-10 lg:col-start-5 lg:col-end-8 my-8 p-4 fondo-stilo flex items-center xl:p-8" >
                     <Carrusel/>
                 </div>
                 <div className="sm:grid-cols-1 md:col-span-10 lg:col-span-8  items-center bg-gray-100  -mt-10">
