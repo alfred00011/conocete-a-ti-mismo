@@ -26,7 +26,7 @@ const Carrusel = () => {
         <div className="w-full h-19  m-auto relative group ">
             <div className="h-full w-full ">
             <img  
-                className=" ms:h-[300px] md:h-[350px] lg:h-[550px] w-full rounded-xl bg-center bg-cover duration-500 relative"
+                className=" ms:h-[18rem] md:h-[22rem] lg:h-[38rem] w-full rounded-xl bg-center bg-cover duration-500 relative"
                 src={imagenes[index].img} 
                 alt={imagenes[index].title} 
             />
