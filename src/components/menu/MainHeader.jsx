@@ -6,12 +6,12 @@ const MainHeader = () => {
     const [showMenu,setShowMenu] = useState(false);
 
     return (
-        <header className="fixed shadow-md z-50 items-center w-full p-4 flex justify-end xl:justify-start h-[8vh] style-header">
+        <header className="fixed z-50 items-center w-full p-4 flex justify-end xl:justify-start h-[8vh] ">
             <nav 
-                className = {`fixed style-header h-full w-[80%] md:w-[50%] xl:w-full ${ showMenu? "left-0": "-left-full"} 
-                    top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-10`}
+                className = {`fixed  h-full w-[80%] md:w-[50%] xl:w-full ${ showMenu? "left-0 bg-emerald-200": "-left-full  "} 
+                      top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all  duration-500 z-10 `}
             >
-                <ul className=" style-header h-full w-full  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 lg:max-w-256 lg:justify-end">
+                <ul className= {"  h-full w-full  xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-5 lg:max-w-256 lg:justify-end xl: "}>
                     <li className="flex items-center">
                         <a className="menu-item" href="#home">
                         Inicio
