@@ -7,10 +7,35 @@
   /*background: linear-gradient(to right, #1460bc, #2498ce, #36a3dd, #4482c4);*/
 }
 
+.home {
+	background-color: #f4f4f4;
+}
+
+
+a::before {
+  margin-left: auto;
+}
+
+a::after, b::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+a:hover::after, a:hover::before {
+  width: 100%;
+}
+
 .menu-item {
 	@apply py-5 px-4 text-black;
 	font-size: 15px;
 	font-weight: 500;
+	border-radius: 12px;
+	padding: 6px 12px 6px 12px;
+
 }
 
 
@@ -65,9 +90,9 @@
 
 .titulo1 {
 	font-size: 30px;
-	color: #F0FF42;
+	color: #fee440;
 	font-weight: 700;
-	text-shadow: 0 1px 0 #F0FF42, 0 1px 0 #F0FF42, 0 0px 0 #F0FF42, 0 4px 5px #273a2d, 0 3px 1px #273a2d, 0 3px 1px #273a2d, 0 0 5px #273a2d, 0 1px 3px #273a2d, 0 3px 5px #273a2d, 0 5px 10px #273a2d, 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+	text-shadow: 0 1px 0 #fee440, 0 1px 0 #fee440, 0 0px 0 #fee440, 0 4px 5px #273a2d, 0 3px 1px #273a2d, 0 3px 1px #273a2d, 0 0 5px #273a2d, 0 1px 3px #273a2d, 0 3px 5px #273a2d, 0 5px 10px #273a2d, 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
 	text-transform: uppercase; }
 
 	.titulo2 {
@@ -80,13 +105,21 @@
 .titulo3 {
 	font-size: 25px;
 	line-height: 1.5;
-	font-weight: 300;
-	color: #F0FF42;
-	text-shadow: 0 1px 0 #F0FF42, 0 1px 0 #F0FF42, 0 0px 0 #F0FF42, 0 4px 5px #273a2d, 0 1px 1px #273a2d, 0 3px 1px #273a2d, 0 1px 1px #273a2d, 0 1px 1px #273a2d, 0 1px 1px #273a2d, 0 1px 1px #273a2d, 0 1px 1px rgba(0,0,0,0.2), 0 0px 0px rgba(0,0,0,0.15);
+	font-weight: 400;
+	color: #fee440;
+	text-shadow: 0 1px 0 #fee440, 0 1px 0 #fee440, 0 0px 0 #fee440, 0 4px 5px #273a2d, 0 3px 1px #273a2d, 0 3px 1px #273a2d, 0 0 5px #273a2d, 0 1px 3px #273a2d, 0 3px 5px #273a2d, 0 5px 10px #273a2d, 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.logo-titulo {
+	border-radius: 50%;
+	height: 12rem;
+	width: 12rem;
+	padding: 20px;
+	margin: auto;
 }
 
 .fondo-stilo{
-	background-color: #dff7a8;
+	background-color: #fee440;
 }
 
 .style-header {
